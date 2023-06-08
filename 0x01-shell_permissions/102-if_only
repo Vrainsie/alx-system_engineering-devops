@@ -1,0 +1,6 @@
+#!/bin/bash
+owner1 = guillaum
+if[$owner1 == guillaum]
+then
+chown betty hello
+fi
