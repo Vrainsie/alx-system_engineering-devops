@@ -1,2 +1,2 @@
 #!/bin/bash
-if[id -un  == guillaum] then chown betty hello fi
+if[id -un  == guillaume] then chown betty hello fi
