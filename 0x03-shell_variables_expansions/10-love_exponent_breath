@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(bc -l <<< "$BREATH ^ $LOVE")
+awk "BEGIN{print ENVIRON[\"BREATH\"] ^ ENVIRON[\"LOVE\"]}"
